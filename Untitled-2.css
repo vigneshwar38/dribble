@@ -1,0 +1,126 @@
+
+.container{
+    background-color:whitesmoke;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    position:sticky;
+    background-color: pink ;    
+}
+
+nav>ul>li{
+    display: inline-block;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+nav>ul>li:hover{
+    color: white;
+    transition: 0.3s;
+
+}
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+    padding-left: 10px;
+}
+nav>ul>li>button{
+    padding:5px 10px;
+    border-radius: 30px;
+}
+nav>ul>li>button:hover{
+    cursor: pointer;
+    
+}
+
+.container{
+    border: 5px black;
+    padding: 80px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box{
+    justify-content:space-between;
+    margin:20px;
+}
+.box>img{
+    border-radius: 20px;
+}
+.box:hover{
+    cursor: pointer;
+
+}
+header>form{
+    font-family:montserrat;
+    border-radius: 50px;
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 600px;
+    margin-top: 20px;
+}
+.box>figcaption{
+    font-family: Montserrat;
+    font-size: 17px;
+    
+}
+.end{
+    display: flex;
+    font-size: 40px;
+    font-family: montserrat;
+    padding-left: 500px;
+}
+.end>li{
+    display: inline-block;
+    padding:0px 30px;
+}
+.btn{
+    border-radius:10px;
+    font-size: bold;
+    padding: 7px 20px;
+    background-color: palevioletred;
+    color:white;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.btn1{
+    font-size: bold;
+    background-color: whitesmoke;
+    color: palevioletred;
+    border-color:white ;
+    padding: 6px 20px;
+}
+.btn1:hover{
+    cursor: pointer;
+
+}
+.fas{
+    margin-left: 120px;
+    font-size: 15px;
+}
+.box:nth-child(10)>figcaption>span>.fas{
+    margin-left: 80px;
+}
+.box:nth-child(12)>figcaption>span>.fas{
+    margin-left: 90px;
+}
+.second>.fas{
+
+    margin-left: 10px;
+}
+.box:nth-child(10)>figcaption>.second>.fas{
+    margin-left: 10px;
+}
+.box:nth-child(12)>figcaption>.second>.fas{
+    margin-left: 10px;
+}
+.text{
+    margin-left: 10px;
+}
+.end{
+    background-color: whitesmoke;
+    background-position: 100%;
+}
+
